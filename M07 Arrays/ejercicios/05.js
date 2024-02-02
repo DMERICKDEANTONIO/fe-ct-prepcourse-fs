@@ -5,5 +5,5 @@ function obtenerPrimerStringLargo(array) {
     return typeof elemento === 'string' && elemento.length > 5;
   });
 }
-
+ 
 module.exports = obtenerPrimerStringLargo;
